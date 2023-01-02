@@ -1,0 +1,208 @@
+/* Webfonts */
+@import '_fonts.css';
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+
+@import '_typography.css';
+
+@import 'tailwindcss/utilities';
+
+
+html {
+    background:#040b13;
+      color: #eee;
+          /* background-color: #f5fafc; */
+            /* background-image: radial-gradient(circle farthest-corner at 100% 0, #f1dfff, rgba(232, 241, 244, 0) 63%), radial-gradient(circle farthest-corner at 0 0, #d5ffe9, rgba(232, 241, 244, 0) 51%); */
+} 
+body {
+  @apply font-sans antialiased;
+  /* background: url('../public/uefalogo.png'); */
+
+}
+
+body {
+  /* background-image: url('/nnnoise.svg'); */
+}
+
+.container-lg {
+  padding: 0 5rem;
+  width: 100%;
+}
+.heading {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+
+}
+
+.content {
+display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+
+  height: 128px;
+}
+
+.section {
+  display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  
+    gap: 24px;
+  
+}
+
+.card-container {
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+  
+    /* height: 726px; */
+}
+
+.card {
+  display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+    width: 100%;
+    height: 450px;
+  
+    /* white
+  
+  white
+  */
+    background: #FFFFFF;
+    /* Shadows/xs */
+  
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 32px;
+}
+
+.row {
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    gap: 30px;
+    /* height: 272px; */
+
+      border-radius: 40px;
+}
+
+.row-item {
+  display: flex;
+  flex: 1;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+  
+ 
+    height: 144px;
+}
+
+.blue {
+  background: #005677;
+}
+
+.gray {
+  background: #F5F5F5;
+}
+
+.divider-line {
+  margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+    width: 100%;
+}
+
+#main-menu {
+      position: absolute;
+        top: 30px;
+        right: calc(clamp(30px, 8.3333333333vw, 144px)/1);
+}
+
+.logo-img {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.scorers {
+  /* background: hsla(288, 20%, 75%, 1);
+  
+    background: linear-gradient(90deg, hsla(288, 20%, 75%, 1) 0%, hsla(197, 65%, 42%, 1) 100%);
+  
+    background: -moz-linear-gradient(90deg, hsla(288, 20%, 75%, 1) 0%, hsla(197, 65%, 42%, 1) 100%);
+  
+    background: -webkit-linear-gradient(90deg, hsla(288, 20%, 75%, 1) 0%, hsla(197, 65%, 42%, 1) 100%);
+  
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#C7B3CC", endColorstr="#268AB2", GradientType=1); */
+
+    /* background: rgba(134, 134, 134, .2);
+      box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.15), 0px 1px 2px rgba(0, 0, 0, 0.1); */
+    
+}
+
+.light-gradient {
+    background-color: #f5fafc;
+      background-image: radial-gradient(circle farthest-corner at 100% 0, #f1dfff, rgba(232, 241, 244, 0) 63%), radial-gradient(circle farthest-corner at 0 0, #d5ffe9, rgba(232, 241, 244, 0) 51%);
+}
+
+.card-blue-gradient {
+background: linear-gradient(90deg, #00416a, #2f567b, #4e6c8c, #6b839d, #889baf, #a6b3c1, #c5ccd3, #e4e5e6);
+}
+
+.c-dQGayJ {
+  bottom: 0%;
+  height: 100vw;
+  left: -20%;
+  opacity: 0.9;
+  overflow: visible;
+  position: absolute;
+
+      transform: translate(0px, 40%);
+        width: 100vw;
+        z-index: -3;
+}
+
+.c-dQGayJ svg {
+  height: 100%;
+  width: 100%;
+}
+
+.c-iMCULe {
+  height: 100vw;
+  position: absolute;
+  right: 0px;
+  top: 0%;
+  transform: translate(50%, 20%);
+  width: 100vw;
+  z-index: -3;
+}
+
+.card-black {
+  background: #262626;
+  background: #292b3d;
+  color: #f6f6f6;
+      /* box-shadow: 0px 8.86702px 9.45815px rgba(0, 0, 0, .1), inset 0px 0.636826px 3.82096px hsla(0, 0%, 100%, .25); */
+}
+
+.bg-image {
+  background-image: linear-gradient(45deg,
+      rgba(177, 199, 180, 0.65),
+      rgba(8, 83, 156, 0.65)), url('../public/trophy-lg.jpg');
+  background-size: contain;
+      background-position: center;
+  width: 100%;
+
+}
